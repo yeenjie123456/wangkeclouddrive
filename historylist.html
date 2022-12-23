@@ -20,11 +20,22 @@
 </head>
 <body>
 <h1>历史课程回放</h1>
+<h2>注：如果链接签名过期了，请点击“返回首页”回到首页去填写问卷。</h2><br>
+---------------<br>
 <a href="/index.html" target="_self">
         <button>返回首页</button>
-    </a>
-
-
+    </a><br>
+---------------<br>
+<h2><a href="/history/2022-12-22.html">2022-12-22课程回放</a></h2>
+<h2><a href="/index.html" id="notopen1">2022-12-21课程回放（暂未开放）</a></h2>
+<!--弹出提示--> 
+<script>
+    document.getElementById("notopen1").addEventListener("click", function(event) {
+event.preventDefault();
+      alert("还在弄，暂时未开放");
+    });
+  </script>
+<!---->
 
 
 
